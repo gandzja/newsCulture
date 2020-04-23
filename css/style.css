@@ -1,368 +1,377 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Regular.ttf');
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Roboto";
+	src: url("../fonts/Roboto/Roboto-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Bold.ttf');
-  font-weight: 700;
-  font-style: normal;
+	font-family: "Roboto";
+	src: url("../fonts/Roboto/Roboto-Bold.ttf");
+	font-weight: 700;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'Roboto';
-  src: url('../fonts/Roboto/Roboto-Black.ttf');
-  font-weight: 900;
-  font-style: normal;
+	font-family: "Roboto";
+	src: url("../fonts/Roboto/Roboto-Black.ttf");
+	font-weight: 900;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
-  font-weight: 400;
-  font-style: normal;
+	font-family: "Playfair Display";
+	src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf");
+	font-weight: 400;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf');
-  font-weight: 700;
-  font-style: normal;
+	font-family: "Playfair Display";
+	src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf");
+	font-weight: 700;
+	font-style: normal;
 }
 @font-face {
-  font-family: 'Playfair Display';
-  src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf');
-  font-weight: 900;
-  font-style: normal;
+	font-family: "Playfair Display";
+	src: url("../fonts/Playfair_Display/static/PlayfairDisplay-Black.ttf");
+	font-weight: 900;
+	font-style: normal;
 }
 
 html {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 body {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 150%;
-  color: #000000;
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	color: #000000;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 .header {
-  text-align: center;
+	text-align: center;
 }
 .container {
-  width: 95%;
-  margin: 0 auto;
+	width: 95%;
+	margin: 0 auto;
 }
 .logo {
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 35px;
-  line-height: 47px;
-  letter-spacing: 1px;
+	font-family: "Playfair Display", serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 35px;
+	line-height: 47px;
+	letter-spacing: 1px;
+	transition: ease-in 0.5s;
+}
+
+a .logo:hover {
+	color: #ff7931;
 }
 .logo-header {
-  color: #000000;
-  padding-top: 60px;
-  padding-bottom: 46px;
+	color: #000000;
+	padding-top: 60px;
+	padding-bottom: 46px;
 }
 .menu {
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: 2px;
+	font-size: 15px;
+	line-height: 18px;
+	letter-spacing: 2px;
 }
 .menu__header {
-  padding-bottom: 47px;
+	padding-bottom: 47px;
 }
 .menu__header-list,
 .menu__footer-list {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 .menu__header-link {
-  color: #000000;
-  transition: ease-in 0.5s;
+	color: #000000;
+	transition: ease-in 0.5s;
 }
 .menu__header-link:hover,
 .menu__footer-link:hover {
-  color: #ff7931;
+	color: #ff7931;
 }
 .slider {
-  padding-bottom: 44px;
+	padding-bottom: 44px;
 }
 .slider__item {
-  text-align: center;
-  color: #ffffff;
+	text-align: center;
+	color: #ffffff;
 }
 .slider__icon {
-  padding: 46px 0 32px;
+	padding: 46px 0 32px;
 }
 .slider__title {
-  font-size: 72px;
-  line-height: 84px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding-bottom: 139px;
+	font-size: 72px;
+	line-height: 84px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	padding-bottom: 139px;
 }
 .slider__text {
-  width: 456px;
-  padding-bottom: 46px;
-  margin: 0 auto;
+	width: 456px;
+	padding-bottom: 46px;
+	margin: 0 auto;
 }
 .reviews {
-  padding-bottom: 51px;
+	padding-bottom: 51px;
 }
 .reviews__title {
-  font-size: 17px;
-  line-height: 20px;
-  letter-spacing: 2px;
-  padding-bottom: 20px;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
 }
 .reviews__items {
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .reviews__item:hover .reviews__item-title {
-  color: #ff7931;
+	color: #ff7931;
 }
 .reviews__item {
-  width: 370px;
+	width: 370px;
 }
 .reviews__item-img {
-  width: 370px;
-  padding-bottom: 20px;
-  object-fit: cover;
+	width: 370px;
+	padding-bottom: 20px;
+	object-fit: cover;
 }
 .reviews__item-title {
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 23px;
-  line-height: 31px;
-  padding-bottom: 10px;
-  transition: ease-in 0.5s;
+	font-family: "Playfair Display", serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+	padding-bottom: 10px;
+	transition: ease-in 0.5s;
 }
 .reviews__item-text {
-  padding: 10px;
+	padding: 10px;
 }
 .stocks {
-  background: radial-gradient(circle, #ffffff 353px, #f7f7f7 353px);
-  margin-bottom: 50px;
+	background: radial-gradient(circle, #ffffff 353px, #f7f7f7 353px);
+	margin-bottom: 50px;
 }
 .stocks__title {
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 20px;
-  letter-spacing: 2px;
-  color: #000000;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 35px;
-  padding-top: 33px;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	color: #000000;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 35px;
+	padding-top: 33px;
 }
 .stocks__text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  width: 370px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	width: 370px;
 }
 .stocks__text-title {
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 23px;
-  line-height: 31px;
-  padding-top: 24px;
-  padding-bottom: 10px;
+	font-family: "Playfair Display", serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 23px;
+	line-height: 31px;
+	padding-top: 24px;
+	padding-bottom: 10px;
 }
 .stocks__text-text {
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 25px;
-  position: relative;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 25px;
+	position: relative;
 }
 .stocks__text-text::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100px;
-  height: 1px;
-  background-color: rgba(0, 0, 0, 0.2);
-  opacity: 0.4;
-  right: 0;
-  margin: 0 auto;
-  display: block;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100px;
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.2);
+	opacity: 0.4;
+	right: 0;
+	margin: 0 auto;
+	display: block;
 }
 .stocks__link {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 36px;
-  position: relative;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 36px;
+	position: relative;
+	transition: ease-in 0.5s;
+}
+.stocks__link:hover {
+	opacity: 0.6;
 }
 .stocks__link-text {
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #ffffff;
-  padding: 17px 60px 15px 30px;
-  background-color: #ff7931;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 17px 60px 15px 30px;
+	background-color: #ff7931;
 }
 .stocks__link-text::after {
-  content: '';
-  position: absolute;
-  background: url('../images/Arrow-forward.svg') no-repeat;
-  width: 24px;
-  height: 25px;
-  position: absolute;
-  left: 52%;
-  top: 11px;
+	content: "";
+	position: absolute;
+	background: url("../images/Arrow-forward.svg") no-repeat;
+	width: 24px;
+	height: 25px;
+	position: absolute;
+	left: 52%;
+	top: 11px;
 }
 .footer {
-  background: #575757;
-  text-align: center;
+	background: #575757;
+	text-align: center;
 }
 .logo-footer {
-  padding-top: 26px;
-  padding-bottom: 32px;
-  color: #ffffff;
+	padding-top: 26px;
+	padding-bottom: 32px;
+	color: #ffffff;
 }
 .menu__footer {
-  color: #ffffff;
+	color: #ffffff;
 }
 .menu__footer-list {
-  padding-bottom: 46px;
+	padding-bottom: 46px;
 }
 .menu__footer-link {
-  color: #ffffff;
-  transition: ease-in 0.5s;
+	color: #ffffff;
+	transition: ease-in 0.5s;
 }
 .footer__items {
-  text-align: center;
-  padding-top: 42px;
-  padding-bottom: 46px;
-  color: #ffffff;
+	text-align: center;
+	padding-top: 42px;
+	padding-bottom: 46px;
+	color: #ffffff;
 }
 .footer__link:hover .footer__link-img {
-  background-color: #ff7931;
+	background-color: #ff7931;
 }
 .footer__link:not(:last-child) {
-  margin-right: 15px;
+	margin-right: 15px;
 }
 .footer__link-img {
-  width: 47px;
-  height: 47px;
-  background: #ffffff;
-  color: #575757;
-  padding: 15px;
-  transition: ease-in 0.5s;
+	width: 47px;
+	height: 47px;
+	background: #ffffff;
+	color: #575757;
+	padding: 15px;
+	transition: ease-in 0.5s;
 }
 
 @media (min-width: 1200px) {
-  .container {
-    width: 1140px;
-  }
-  .reviews__item-img {
-    width: 370px;
-  }
+	.container {
+		width: 1140px;
+	}
+	.reviews__item-img {
+		width: 370px;
+	}
 }
 @media (max-width: 992px) {
-  .container {
-    width: 960px;
-  }
-  .reviews__items {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .reviews__item {
-    margin: 0 auto;
-    width: 600px;
-  }
-  .reviews__item-img {
-    width: 600px;
-  }
-  .stocks__link-text::after {
-    left: 54%;
-  }
+	.container {
+		width: 960px;
+	}
+	.reviews__items {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.reviews__item {
+		margin: 0 auto;
+		width: 600px;
+	}
+	.reviews__item-img {
+		width: 600px;
+	}
+	.stocks__link-text::after {
+		left: 54%;
+	}
 }
 @media (max-width: 768px) {
-  .container {
-    width: 720px;
-  }
-  .logo-header {
-    padding-top: 30px;
-    padding-bottom: 23px;
-  }
-  .menu__header {
-    padding-bottom: 25px;
-  }
-  .menu__header-list,
-  .menu__footer-list {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .menu__header-items:not(:last-child),
-  .menu__footer-items:not(:last-child) {
-    padding-bottom: 10px;
-  }
-  .slider__title {
-    font-size: 64px;
-    line-height: 72px;
-    padding-bottom: 75px;
-  }
-  .reviews__items {
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
-  .reviews__item {
-    margin: 0 auto;
-    width: 500px;
-    text-align: center;
-  }
-  .reviews__item-img {
-    width: 500px;
-  }
-  .stocks__link-text::after {
-    left: 55%;
-  }
+	.container {
+		width: 720px;
+	}
+	.logo-header {
+		padding-top: 30px;
+		padding-bottom: 23px;
+	}
+	.menu__header {
+		padding-bottom: 25px;
+	}
+	.menu__header-list,
+	.menu__footer-list {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.menu__header-items:not(:last-child),
+	.menu__footer-items:not(:last-child) {
+		padding-bottom: 10px;
+	}
+	.slider__title {
+		font-size: 64px;
+		line-height: 72px;
+		padding-bottom: 75px;
+	}
+	.reviews__items {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.reviews__item {
+		margin: 0 auto;
+		width: 500px;
+		text-align: center;
+	}
+	.reviews__item-img {
+		width: 500px;
+	}
+	.stocks__link-text::after {
+		left: 55%;
+	}
 }
 @media (max-width: 576px) {
-  .container {
-    width: 95%;
-  }
-  .slider__text,
-  .reviews__item,
-  .reviews__item-img,
-  .stocks__text {
-    width: 90%;
-  }
-  .stocks__link-text::after {
-    left: 59%;
-  }
-  .slider__title {
-    font-size: 48px;
-    line-height: 52px;
-    padding-bottom: 40px;
-  }
+	.container {
+		width: 95%;
+	}
+	.slider__text,
+	.reviews__item,
+	.reviews__item-img,
+	.stocks__text {
+		width: 90%;
+	}
+	.stocks__link-text::after {
+		left: 59%;
+	}
+	.slider__title {
+		font-size: 48px;
+		line-height: 52px;
+		padding-bottom: 40px;
+	}
 }

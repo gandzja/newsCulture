@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Новости культуры</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container">
-        <h1 class="logo logo-header">Новости культуры</h1>
-        <nav class="menu menu__header">
-          <ul class="menu__header-list">
-            <li class="menu__header-items"><a href="#" class="menu__header-link">НОВОСТИ</a></li>
-            <li class="menu__header-items"><a href="#" class="menu__header-link">ОБЗОРЫ</a></li>
-            <li class="menu__header-items"><a href="#" class="menu__header-link">МУЗЫКА</a></li>
-            <li class="menu__header-items"><a href="#" class="menu__header-link">АРХИТЕКТУРА</a></li>
-            <li class="menu__header-items"><a href="#" class="menu__header-link">КИНО</a></li>
-            <li class="menu__header-items"><a href="#" class="menu__header-link">ТЕАТР</a></li>
-            <li class="menu__header-items"><a href="#" class="menu__header-link">ЛИТЕРАТУРА</a></li>
-            <li class="menu__header-items"><a href="#" class="menu__header-link">РЕЛИГИЯ</a></li>
-            <li class="menu__header-items"><a href="#" class="menu__header-link">ЖИВОПИСЬ</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <section class="slider">
-      <div class="slider__item" style="background-image: url(images/slider-1.png); max-height: 464px;">
-        <img class="slider__icon" src="images/icon_img.svg" alt="icon img" />
-        <h2 class="slider__title">Подводный отель</h2>
-        <p class="slider__text">
-          Как известно, Дубай – город контрастов. Самые революционные и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти
-        </p>
-      </div>
-      <!-- <div class="slider__item" style="background-image: url(images/slider-1.png);">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Новости культуры</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<a href="index.html"><h1 class="logo logo-header">Новости культуры</h1></a>
+				<nav class="menu menu__header">
+					<ul class="menu__header-list">
+						<li class="menu__header-items"><a href="#" class="menu__header-link">НОВОСТИ</a></li>
+						<li class="menu__header-items"><a href="#" class="menu__header-link">ОБЗОРЫ</a></li>
+						<li class="menu__header-items"><a href="#" class="menu__header-link">МУЗЫКА</a></li>
+						<li class="menu__header-items">
+							<a href="#" class="menu__header-link">АРХИТЕКТУРА</a>
+						</li>
+						<li class="menu__header-items"><a href="#" class="menu__header-link">КИНО</a></li>
+						<li class="menu__header-items"><a href="#" class="menu__header-link">ТЕАТР</a></li>
+						<li class="menu__header-items"><a href="#" class="menu__header-link">ЛИТЕРАТУРА</a></li>
+						<li class="menu__header-items"><a href="#" class="menu__header-link">РЕЛИГИЯ</a></li>
+						<li class="menu__header-items"><a href="#" class="menu__header-link">ЖИВОПИСЬ</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section class="slider">
+			<div
+				class="slider__item"
+				style="background-image: url(images/slider-1.png); max-height: 464px;"
+			>
+				<img class="slider__icon" src="images/icon_img.svg" alt="icon img" />
+				<h2 class="slider__title">Подводный отель</h2>
+				<p class="slider__text">
+					Как известно, Дубай – город контрастов. Самые революционные и фантастические мечты
+					архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет
+					нефти
+				</p>
+			</div>
+			<!-- <div class="slider__item" style="background-image: url(images/slider-1.png);">
         <img class="slider__icon" src="images/icon_img.svg" alt="icon img" />
         <h2 class="slider__title">Подводный отель</h2>
         <p class="slider__text">
@@ -52,84 +59,89 @@
           нефти
         </p>
       </div> -->
-    </section>
-    <section class="reviews">
-      <div class="container">
-        <h2 class="reviews__title"></h2>
-        <div class="reviews__items">
-          <div class="reviews__item">
-            <img src="images/shaln.png" alt="«Шальные годы» Монпарнаса" class="reviews__item-img" />
-            <h3 class="reviews__item-title">«Шальные годы» Монпарнаса</h3>
-            <p class="reviews__item-text">
-              В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»
-            </p>
-          </div>
-          <div class="reviews__item">
-            <img src="images/anatomy.png" alt="Анатомия за 30 секунд" class="reviews__item-img" />
-            <h3 class="reviews__item-title">Анатомия за 30 секунд</h3>
-            <p class="reviews__item-text">
-              Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно‑популярной литературе заметно вырос
-            </p>
-          </div>
-          <div class="reviews__item">
-            <img src="images/chud.png" alt="Сферические чудаки" class="reviews__item-img" />
-            <h3 class="reviews__item-title">Сферические чудаки</h3>
-            <p class="reviews__item-text">
-              Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды»
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="stocks">
-      <h3 class="stocks__title">АБОНЕМЕНТЫ В ТЕАТР</h3>
-      <div class="stocks__text">
-        <h4 class="stocks__text-title">Скидка 50% на весь сезон 2020</h4>
-        <p class="stocks__text-text">
-          Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей
-        </p>
-        <h4 class="stocks__text-title">Места у сцены</h4>
-        <p class="stocks__text-text">
-          Только для обладателей абонементов будет возможность сесть поближе к сцене
-        </p>
-        <h4 class="stocks__text-title">Автограф-сессия актёров</h4>
-        <p class="stocks__text-text">
-          После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф
-        </p>
-      </div>
-      <div class="stocks__link">
-        <a href="#" class="stocks__link-text">смотреть</a>
-      </div>
-    </section>
-    <footer class="footer">
-      <div class="container">
-        <h1 class="logo logo-footer">Новости культуры</h1>
-        <nav class="menu menu__footer">
-          <ul class="menu__footer-list">
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">НОВОСТИ</a></li>
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">ОБЗОРЫ</a></li>
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">МУЗЫКА</a></li>
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">АРХИТЕКТУРА</a></li>
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">КИНО</a></li>
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">ТЕАТР</a></li>
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">ЛИТЕРАТУРА</a></li>
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">РЕЛИГИЯ</a></li>
-            <li class="menu__footer-items"><a class="menu__footer-link" href="#">ЖИВОПИСЬ</a></li>
-          </ul>
-        </nav>
-      </div>
-      <hr />
-      <div class="footer__items">
-        <a href="#" class="footer__link">
-          <img class="footer__link-img" src="images/instagram.svg" alt="instagram" />
-        </a>
-        <a href="#" class="footer__link">
-          <img class="footer__link-img" src="images/facebook_icon.svg" alt="instagram" />
-        </a>
-        <a href="#" class="footer__link">
-          <img class="footer__link-img" src="images/twitter_icon.svg" alt="instagram" />
-        </a>
-      </div>
-    </footer>
-  </body>
+		</section>
+		<section class="reviews">
+			<div class="container">
+				<h2 class="reviews__title"></h2>
+				<div class="reviews__items">
+					<div class="reviews__item">
+						<img src="images/shaln.png" alt="«Шальные годы» Монпарнаса" class="reviews__item-img" />
+						<h3 class="reviews__item-title">«Шальные годы» Монпарнаса</h3>
+						<p class="reviews__item-text">
+							В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит
+							выставка «Шальные годы Монпарнаса»
+						</p>
+					</div>
+					<div class="reviews__item">
+						<img src="images/anatomy.png" alt="Анатомия за 30 секунд" class="reviews__item-img" />
+						<h3 class="reviews__item-title">Анатомия за 30 секунд</h3>
+						<p class="reviews__item-text">
+							Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий,
+							интерес к научно‑популярной литературе заметно вырос
+						</p>
+					</div>
+					<div class="reviews__item">
+						<img src="images/chud.png" alt="Сферические чудаки" class="reviews__item-img" />
+						<h3 class="reviews__item-title">Сферические чудаки</h3>
+						<p class="reviews__item-text">
+							Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера»
+							на премьере спектакля «Чудаки и зануды»
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="stocks">
+			<h3 class="stocks__title">АБОНЕМЕНТЫ В ТЕАТР</h3>
+			<div class="stocks__text">
+				<h4 class="stocks__text-title">Скидка 50% на весь сезон 2020</h4>
+				<p class="stocks__text-text">
+					Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей
+				</p>
+				<h4 class="stocks__text-title">Места у сцены</h4>
+				<p class="stocks__text-text">
+					Только для обладателей абонементов будет возможность сесть поближе к сцене
+				</p>
+				<h4 class="stocks__text-title">Автограф-сессия актёров</h4>
+				<p class="stocks__text-text">
+					После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф
+				</p>
+			</div>
+			<div class="stocks__link">
+				<a href="#" class="stocks__link-text">смотреть</a>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<a href="index.html"><h1 class="logo logo-footer">Новости культуры</h1></a>
+				<nav class="menu menu__footer">
+					<ul class="menu__footer-list">
+						<li class="menu__footer-items"><a class="menu__footer-link" href="#">НОВОСТИ</a></li>
+						<li class="menu__footer-items"><a class="menu__footer-link" href="#">ОБЗОРЫ</a></li>
+						<li class="menu__footer-items"><a class="menu__footer-link" href="#">МУЗЫКА</a></li>
+						<li class="menu__footer-items">
+							<a class="menu__footer-link" href="#">АРХИТЕКТУРА</a>
+						</li>
+						<li class="menu__footer-items"><a class="menu__footer-link" href="#">КИНО</a></li>
+						<li class="menu__footer-items"><a class="menu__footer-link" href="#">ТЕАТР</a></li>
+						<li class="menu__footer-items"><a class="menu__footer-link" href="#">ЛИТЕРАТУРА</a></li>
+						<li class="menu__footer-items"><a class="menu__footer-link" href="#">РЕЛИГИЯ</a></li>
+						<li class="menu__footer-items"><a class="menu__footer-link" href="#">ЖИВОПИСЬ</a></li>
+					</ul>
+				</nav>
+			</div>
+			<hr />
+			<div class="footer__items">
+				<a href="#" class="footer__link">
+					<img class="footer__link-img" src="images/instagram.svg" alt="instagram" />
+				</a>
+				<a href="#" class="footer__link">
+					<img class="footer__link-img" src="images/facebook_icon.svg" alt="instagram" />
+				</a>
+				<a href="#" class="footer__link">
+					<img class="footer__link-img" src="images/twitter_icon.svg" alt="instagram" />
+				</a>
+			</div>
+		</footer>
+	</body>
 </html>

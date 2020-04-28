@@ -148,6 +148,9 @@ a .logo:hover {
 .reviews__item:hover .reviews__item-title {
 	color: #ff7931;
 }
+.active .reviews__item-title {
+	color: #ff7931;
+}
 .reviews__item {
 	width: 370px;
 }
